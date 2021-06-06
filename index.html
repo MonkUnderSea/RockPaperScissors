@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--To give description: 
+            <meta name="description" content="This is a game. Do not take  seriously."> -->
+        <title>RPS</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="favicon.ico" rel="icon" type="favicon">
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        
+        
+        <div class="score_board">
+            <div class="badge" id="user">
+                user
+            </div>
+            <div class="badge" id="computer">
+                comp
+            </div>
+            <span id="user_score">0</span>:<span id="computer_score">0</span>  
+        </div>
+        
+
+        <div class="result">
+            <p>Chose wisely.</p>
+        </div>
+
+
+        <div class="choices">
+            <div class="choice" id="r"><img src="icons/rock.png" alt="rock"></div>
+            <div class="choice" id="p"><img src="icons/paper.png" alt="paper"></div> 
+            <div class="choice" id="s"><img src="icons/scissors.png" alt="scissors"></div>
+        </div>
+
+        <p class="action-message">Make Your Move!</p> 
+        
+        <script src="app.js"></script>
+    </body>
+</html>

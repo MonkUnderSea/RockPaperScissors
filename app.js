@@ -1,4 +1,5 @@
- let userScore = 0;
+// Coded along with freeCodeCamp.org(https://www.youtube.com/watch?v=jaVNP3nIAv0). Code below may vary.
+let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("user_score");
 const computerScore_span = document.getElementById("computer_score");
